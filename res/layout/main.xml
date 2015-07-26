@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Aura Servo Controller"
+    />
+<Button    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Drive"
+    android:id="@+id/leftbutton"
+/>
+<Button    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Update IP"
+    android:id="@+id/updateIPbutton"
+/>
+
+<SeekBar android:id = "@+id/leftseek"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:max="100"
+         android:minWidth="200px"  
+/>
+<SeekBar android:id = "@+id/rightseek"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:max="100"
+         android:minWidth="200px"  
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id = "@+id/ipaddr"
+    android:text="-ip address-"
+    />
+</LinearLayout>
+
