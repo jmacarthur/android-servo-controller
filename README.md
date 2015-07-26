@@ -7,10 +7,11 @@ This was written as a proof of concept only. It isn't good quality code. In part
 
 The tone-generating code is taken from http://marblemice.blogspot.co.uk/2010/04/generate-and-play-tone-in-android.html and was modified by Steve Pomeroy on StackOverflow.com.
 
-To build:
+To build the android app, after setting up the ADK as normal:
 
     android update project --path . --target 1
     ant debug
 
 (Where '1' is a valid target, given the output from "android list targets")
 
+Controller.java is an example Java application to send datagram packets to the Android device.
